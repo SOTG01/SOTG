@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products - Succulent on the Go</title>
+    <title>Plant App - Succulent on the Go</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Chonburi&family=Cormorant+Garamond&family=Lexend+Deca&family=Overpass&display=swap" rel="stylesheet">
 </head>
@@ -15,8 +15,8 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="index.html#about">About</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="plant-app.html">Plant App</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="#plant-app">Plant App</a></li>
                 <li><a href="consultation.html">Consultation</a></li>
                 <li id="cart-link"><a href="#cart">Cart</a></li>
                 <li id="logout-link"><a href="#" onclick="logout()">Logout</a></li>
@@ -24,8 +24,14 @@
         </nav>
     </header>
 
-    <main id="products">
-        <!-- Rest of the content remains the same -->
+    <main id="plant-app">
+        <h2>Plant Health Detection App</h2>
+        <p>Upload an image of your plant to analyze its health.</p>
+        <form id="detection-form">
+            <input type="file" id="plant-image" name="plant-image" accept="image/*" required>
+            <button type="submit">Analyze</button>
+        </form>
+        <div id="detection-result"></div>
     </main>
 
     <footer>
@@ -42,3 +48,4 @@
     <script src="scripts.js"></script>
 </body>
 </html>
+

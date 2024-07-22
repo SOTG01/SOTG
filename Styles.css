@@ -114,25 +114,126 @@ footer nav ul li a {
   z-index: 1000;
 }
 
-.login-popup {
+.auth-popup {
   background-color: white;
   padding: 20px;
   border-radius: 5px;
   text-align: center;
+  max-width: 300px;
+  width: 100%;
 }
 
-.login-popup input {
+.auth-popup input, .auth-popup select {
   display: block;
   margin: 10px auto;
   padding: 5px;
-  width: 200px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.login-popup button {
+.auth-popup button {
   background-color: #056654;
   color: white;
   border: none;
   padding: 10px 20px;
   margin-top: 10px;
   cursor: pointer;
+  width: 100%;
+}
+
+.auth-popup p {
+  margin-top: 15px;
+}
+
+.auth-popup a {
+  color: #056654;
+  text-decoration: none;
+}
+
+#consultation {
+  margin-top: 20px;
+}
+
+.expert {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#book-consultation {
+  background-color: #056654;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+
+/* New styles for Plant App and Consultation */
+#plant-app, #consultation {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#detection-form, #appointment-form {
+  margin-top: 20px;
+}
+
+#detection-form input[type="file"], 
+#appointment-form input[type="date"], 
+#appointment-form select {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#detection-form button, 
+#appointment-form button {
+  background-color: #056654;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#detection-result {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.expert button {
+  background-color: #056654;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  header nav ul li {
+      display: block;
+      margin: 10px 0;
+  }
+
+  #top-products {
+      flex-direction: column;
+  }
+
+  .product {
+      width: 100%;
+      margin-bottom: 20px;
+  }
 }
