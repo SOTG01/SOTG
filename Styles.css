@@ -1,239 +1,239 @@
 body {
-  font-family: 'Lexend Deca', Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
+    font-family: 'Lexend Deca', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
 h1, h2, h3 {
-  font-family: 'Chonburi', serif;
+    font-family: 'Chonburi', serif;
 }
 
 p {
-  font-family: 'Cormorant Garamond', serif;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 header {
-  background-color: #056654;
-  color: white;
-  padding: 10px 0;
-  text-align: center;
+    background-color: #056654;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
 }
 
 header img.logo {
-  width: 50px;
-  vertical-align: middle;
-  cursor: pointer;
+    width: 50px;
+    vertical-align: middle;
+    cursor: pointer;
 }
 
 header h1 {
-  display: inline;
-  margin: 0;
-  vertical-align: middle;
+    display: inline;
+    margin: 0;
+    vertical-align: middle;
 }
 
 header nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 header nav ul li {
-  display: inline;
-  margin: 0 15px;
+    display: inline;
+    margin: 0 15px;
 }
 
 header nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-family: 'Overpass', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-family: 'Overpass', sans-serif;
 }
 
 main {
-  padding: 20px;
+    padding: 20px;
 }
 
 h2 {
-  color: #056654;
+    color: #056654;
 }
 
 #top-products {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 .product {
-  background-color: white;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  padding: 10px;
-  text-align: center;
-  width: 30%;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 10px;
+    text-align: center;
+    width: 30%;
 }
 
 .product img {
-  max-width: 100%;
-  border-radius: 4px;
+    max-width: 100%;
+    border-radius: 4px;
 }
 
 footer {
-  background-color: #056654;
-  color: white;
-  padding: 10px 0;
-  text-align: center;
+    background-color: #056654;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
 }
 
 footer nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 footer nav ul li {
-  display: inline;
-  margin: 0 10px;
+    display: inline;
+    margin: 0 10px;
 }
 
 footer nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-family: 'Overpass', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-family: 'Overpass', sans-serif;
 }
 
 .overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
 }
 
 .auth-popup {
-  background-color: white;
-  padding: 20px;
-  border-radius: 5px;
-  text-align: center;
-  max-width: 300px;
-  width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
 }
 
 .auth-popup input, .auth-popup select {
-  display: block;
-  margin: 10px auto;
-  padding: 5px;
-  width: 100%;
-  box-sizing: border-box;
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .auth-popup button {
-  background-color: #056654;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  margin-top: 10px;
-  cursor: pointer;
-  width: 100%;
+    background-color: #056654;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
 }
 
 .auth-popup p {
-  margin-top: 15px;
+    margin-top: 15px;
 }
 
 .auth-popup a {
-  color: #056654;
-  text-decoration: none;
+    color: #056654;
+    text-decoration: none;
 }
 
 #consultation {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .expert {
-  background-color: white;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  padding: 10px;
-  margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 #book-consultation {
-  background-color: #056654;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  display: block;
-  margin: 20px auto;
+    background-color: #056654;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
 }
 
 /* New styles for Plant App and Consultation */
 #plant-app, #consultation {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 #detection-form, #appointment-form {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 #detection-form input[type="file"], 
 #appointment-form input[type="date"], 
 #appointment-form select {
-  display: block;
-  margin-bottom: 10px;
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 
 #detection-form button, 
 #appointment-form button {
-  background-color: #056654;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 4px;
+    background-color: #056654;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
 }
 
 #detection-result {
-  margin-top: 20px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 
 .expert button {
-  background-color: #056654;
-  color: white;
-  border: none;
-  padding: 5px 10px;
-  cursor: pointer;
-  border-radius: 4px;
+    background-color: #056654;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
 }
 
 /* Responsive design */
 @media (max-width: 768px) {
-  header nav ul li {
-      display: block;
-      margin: 10px 0;
-  }
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
 
-  #top-products {
-      flex-direction: column;
-  }
+    #top-products {
+        flex-direction: column;
+    }
 
-  .product {
-      width: 100%;
-      margin-bottom: 20px;
-  }
+    .product {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
